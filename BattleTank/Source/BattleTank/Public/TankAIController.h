@@ -20,4 +20,7 @@ private:
 	virtual void BeginPlay() override;
 
 	virtual void Tick(float DeltaTime) override;
+
+	// How close can the AT tank get to player
+	float AcceptanceRadius = 3000;
 };
